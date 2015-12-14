@@ -187,6 +187,13 @@ Nice idea. Just make it your class conform to `TRTransitionProtocol` and it will
 
 **N.B:** Remember to call `viewControllerWillBeginTransitioning`, `viewControllerIsTransitioning` and `viewControllerDidEndTransitioning` if they are implemented on your view controllers, so you give them the chance to perform any necessary update.
 
+# Contribution
+To contribute to this project, please read and sign one of the contribution agreements included in the repository.
+
+TRTransitions-iOS Entity Contributor License Agreement v1.1
+
+TRTransitions-iOS Individual Contributor License Agreement v1
+
 # Acknowledgements
 Images used in the sample project have been downloaded from [Pixabay](https://pixabay.com/) who provides those images [under Creative Commons CCO](https://pixabay.com/es/service/terms/).
 
