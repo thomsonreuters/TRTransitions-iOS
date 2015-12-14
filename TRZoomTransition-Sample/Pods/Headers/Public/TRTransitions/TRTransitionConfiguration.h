@@ -1,0 +1,1 @@
+../../../../../TRTransitions/TRTransitions/Utils/TRTransitionConfiguration.h

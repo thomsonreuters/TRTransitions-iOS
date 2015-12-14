@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08145FD9FCCB11375CFE5991C4CB2409 /* TRTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51B06E4F55AF76F4630C7AB7061A82 /* TRTransition.m */; };
+		0B6801194007F40E038177C27BCA2570 /* TRTransitionInteractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8762E972F64499E3CB1BD358EE169E /* TRTransitionInteractiveViewController.m */; };
+		16FB48CBE6C8B712C2EAD4F7A573D291 /* TRTransitionConfiguration+ZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5654019CE6D937CE1D5F4DCB1F5D29 /* TRTransitionConfiguration+ZoomTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F4704CE64E2FEDCE4F1EFA67C776FAA /* TRZoomInRectTransitionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A917A3323EB6C04B7E6E7F432E32A /* TRZoomInRectTransitionHelper.m */; };
+		2B0BBC504276C5CC39A104938CA14926 /* TRZoomTransitionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A022CFFA34F28DFD11D7FC8E1FB630FE /* TRZoomTransitionHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BEB104F9787952550E26CB70E7873AA /* TRTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B121A1EAB42E4F5C6A5DA41BE6D602D7 /* TRTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45154DA54EADA380C9A86EF24DC2B656 /* TRZoomInRectForwardTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D52C7CEA09280F1C6A5D6EA7C7D40CF /* TRZoomInRectForwardTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46231AD5249567BD70C2E21D9DB0BCC5 /* TRTransitionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F3560FAC8595255E823783D1A1BEFD /* TRTransitionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C19DBBFC5920447B45CCDD4605C2A66 /* TRTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C449E1708279EC472C0E6E7A10E30E09 /* TRTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52271388494BED8E4E629E020DF9669D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		52D69FC19DA72BED05E84ECA1D22C052 /* TRZoomInRectBackwardTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 91522EB7E4D313BD19FE42D3BF63D44E /* TRZoomInRectBackwardTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53919BA18360ECA87B910E84D18F186E /* TRSegueTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C188F5B5760FBFE515512AADC42E84C4 /* TRSegueTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7D155C89FBE58CF4650C00A2F0617C /* TRTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A547CE8F69D3FCB50FFD16F61B122508 /* TRTransitions-dummy.m */; };
+		5DE62B691F5052B3F11D5113640C98B9 /* TRTransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 703EE5FC5857FC5B5C381DDFB943492F /* TRTransitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605D235A712FEB4491ACC9559477338F /* TRZoomInRectTransitionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D5540EB99D157AD89EA8A37CE55822 /* TRZoomInRectTransitionHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68ED5286FFFBA54E52899494D4D082AE /* TRTransitionConfiguration+ZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D089F0E54B00A02040F906261E04C37 /* TRTransitionConfiguration+ZoomTransition.m */; };
+		83BC827BBC406A36B7AE983BF7D73DEF /* TRZoomTransitionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E5EA1E0670138AE1E1BB10D9DF9FF /* TRZoomTransitionHelper.m */; };
+		84776A06401C34E67F4E661792FC6F74 /* TRZoomTransitionImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2F032F9D1AD636A72C062C77234DCA /* TRZoomTransitionImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D44B1AE7E0157CEDCB52770B2D3BBB /* TRTransitionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 404DC04CD3096E49D10DD76577D27D92 /* TRTransitionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5E8490CC0B360EB291F702B4C707AD /* TRTransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 30428C104E1A83A5B7F303BF1741BD7C /* TRTransitionContext.m */; };
+		8CC1100DF476DC85BE273C262DCE0C51 /* TRTransitionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 414910904CF4759EDDBA754774BA164A /* TRTransitionConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98671901647EC5A276A1CF43535E5738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9D0CA3DE87F66E0F9014207CAC369AF4 /* TRTransitionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F133BC599E445A9BFEB25BF7F52EEC5 /* TRTransitionRegistry.m */; };
+		A381F8D3C972D2CB107726126137C8AA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		B17F8D16A7A33A2B94223B8ED7F7B587 /* TRSegueTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C02D9E48325C24BDEADD5C7852EA5 /* TRSegueTransition.m */; };
+		B2A5515E54C277CCBA71E594B262A23A /* TRZoomTransitionImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B46094A2F24468CADAF592B4ED093AB8 /* TRZoomTransitionImageHelper.m */; };
+		D6BCAE14312BF7131CC7E73FDF2D07B3 /* TRTransitionInteractiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 199CDA16B6D1CD20CF5906A8BAE5DF11 /* TRTransitionInteractiveViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD6A8A4CB63D1CE3C2187D1AC4D477C /* TRTransitionViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D0840F8C515D7CF848A6BD07CFE3D8B1 /* TRTransitionViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2F7FCA789E1614F0149C9F8F0A0AB1 /* TRZoomInRectBackwardTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3826C70BF3E6952FC0BEE83EF9DA9B05 /* TRZoomInRectBackwardTransition.m */; };
+		F01B20D7DF289372795B51B634C07E6A /* TRTransitionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E3F7BA18580920034BFB1FACAA3F7 /* TRTransitionConfiguration.m */; };
+		FADD052D2C84E07BC967CB9819E51833 /* TRZoomInRectForwardTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA539DAE6B4D614F7AAEA511D464A7E1 /* TRZoomInRectForwardTransition.m */; };
+		FC03A76413C5139D25FBB523D54FC49A /* TRTransitionInteractiveControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FACDC5F04E610D5B29E7F12EB0AC9F /* TRTransitionInteractiveControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA5B808A27207E5547C17000A6F0E929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E6ABC71C70A333FC816B6250EFA463;
+			remoteInfo = TRTransitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		13D5540EB99D157AD89EA8A37CE55822 /* TRZoomInRectTransitionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRZoomInRectTransitionHelper.h; sourceTree = "<group>"; };
+		199CDA16B6D1CD20CF5906A8BAE5DF11 /* TRTransitionInteractiveViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionInteractiveViewController.h; sourceTree = "<group>"; };
+		1F5654019CE6D937CE1D5F4DCB1F5D29 /* TRTransitionConfiguration+ZoomTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRTransitionConfiguration+ZoomTransition.h"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2A2F032F9D1AD636A72C062C77234DCA /* TRZoomTransitionImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRZoomTransitionImageHelper.h; sourceTree = "<group>"; };
+		30428C104E1A83A5B7F303BF1741BD7C /* TRTransitionContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRTransitionContext.m; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3826C70BF3E6952FC0BEE83EF9DA9B05 /* TRZoomInRectBackwardTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRZoomInRectBackwardTransition.m; sourceTree = "<group>"; };
+		3E10184E4E5A9046E30E49A07044A4C1 /* TRTransitions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRTransitions.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F133BC599E445A9BFEB25BF7F52EEC5 /* TRTransitionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRTransitionRegistry.m; sourceTree = "<group>"; };
+		404DC04CD3096E49D10DD76577D27D92 /* TRTransitionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionContext.h; sourceTree = "<group>"; };
+		414910904CF4759EDDBA754774BA164A /* TRTransitionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionConfiguration.h; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4F7A917A3323EB6C04B7E6E7F432E32A /* TRZoomInRectTransitionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRZoomInRectTransitionHelper.m; sourceTree = "<group>"; };
+		50F3560FAC8595255E823783D1A1BEFD /* TRTransitionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionRegistry.h; sourceTree = "<group>"; };
+		5A3E3F7BA18580920034BFB1FACAA3F7 /* TRTransitionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRTransitionConfiguration.m; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		703EE5FC5857FC5B5C381DDFB943492F /* TRTransitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitions.h; sourceTree = "<group>"; };
+		7D52C7CEA09280F1C6A5D6EA7C7D40CF /* TRZoomInRectForwardTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRZoomInRectForwardTransition.h; sourceTree = "<group>"; };
+		7E4E5EA1E0670138AE1E1BB10D9DF9FF /* TRZoomTransitionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRZoomTransitionHelper.m; sourceTree = "<group>"; };
+		91522EB7E4D313BD19FE42D3BF63D44E /* TRZoomInRectBackwardTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRZoomInRectBackwardTransition.h; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9D089F0E54B00A02040F906261E04C37 /* TRTransitionConfiguration+ZoomTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRTransitionConfiguration+ZoomTransition.m"; sourceTree = "<group>"; };
+		A022CFFA34F28DFD11D7FC8E1FB630FE /* TRZoomTransitionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRZoomTransitionHelper.h; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A547CE8F69D3FCB50FFD16F61B122508 /* TRTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRTransitions-dummy.m"; sourceTree = "<group>"; };
+		A6BCD930052E3ABEDFFD7209223B06FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B121A1EAB42E4F5C6A5DA41BE6D602D7 /* TRTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransition.h; sourceTree = "<group>"; };
+		B46094A2F24468CADAF592B4ED093AB8 /* TRZoomTransitionImageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRZoomTransitionImageHelper.m; sourceTree = "<group>"; };
+		B6FACDC5F04E610D5B29E7F12EB0AC9F /* TRTransitionInteractiveControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionInteractiveControllerProtocol.h; sourceTree = "<group>"; };
+		B73C02D9E48325C24BDEADD5C7852EA5 /* TRSegueTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRSegueTransition.m; sourceTree = "<group>"; };
+		BA539DAE6B4D614F7AAEA511D464A7E1 /* TRZoomInRectForwardTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRZoomInRectForwardTransition.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC51B06E4F55AF76F4630C7AB7061A82 /* TRTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRTransition.m; sourceTree = "<group>"; };
+		C188F5B5760FBFE515512AADC42E84C4 /* TRSegueTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRSegueTransition.h; sourceTree = "<group>"; };
+		C449E1708279EC472C0E6E7A10E30E09 /* TRTransitionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionProtocol.h; sourceTree = "<group>"; };
+		CCA74F52D2100174C2E132CBB18D58AB /* TRTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRTransitions-prefix.pch"; sourceTree = "<group>"; };
+		D0840F8C515D7CF848A6BD07CFE3D8B1 /* TRTransitionViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRTransitionViewControllerProtocol.h; sourceTree = "<group>"; };
+		EA8762E972F64499E3CB1BD358EE169E /* TRTransitionInteractiveViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRTransitionInteractiveViewController.m; sourceTree = "<group>"; };
+		F9B21177D8DEDAE05438A9D1BA9F3F69 /* libTRTransitions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRTransitions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B632C8434BB67C2A095024B791D186C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98671901647EC5A276A1CF43535E5738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AA9C8CBF0A500314C064AAA8D244D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52271388494BED8E4E629E020DF9669D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		060A9BDA73EF09189B98435B2DCB6BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BCD930052E3ABEDFFD7209223B06FF /* libPods.a */,
+				F9B21177D8DEDAE05438A9D1BA9F3F69 /* libTRTransitions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38186AC42969E7ACA47EDDD22B8D448E /* Zoom Into Rect */ = {
+			isa = PBXGroup;
+			children = (
+				91522EB7E4D313BD19FE42D3BF63D44E /* TRZoomInRectBackwardTransition.h */,
+				3826C70BF3E6952FC0BEE83EF9DA9B05 /* TRZoomInRectBackwardTransition.m */,
+				7D52C7CEA09280F1C6A5D6EA7C7D40CF /* TRZoomInRectForwardTransition.h */,
+				BA539DAE6B4D614F7AAEA511D464A7E1 /* TRZoomInRectForwardTransition.m */,
+				13D5540EB99D157AD89EA8A37CE55822 /* TRZoomInRectTransitionHelper.h */,
+				4F7A917A3323EB6C04B7E6E7F432E32A /* TRZoomInRectTransitionHelper.m */,
+			);
+			path = "Zoom Into Rect";
+			sourceTree = "<group>";
+		};
+		41942F73F37436667DCCFD43D0A0E380 /* TRTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC3C5C61F03F33B10501A5D05FB144 /* TRTransitions */,
+			);
+			path = TRTransitions;
+			sourceTree = "<group>";
+		};
+		6EE7CAF0065CD9061AB7D902F2AA5040 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				414910904CF4759EDDBA754774BA164A /* TRTransitionConfiguration.h */,
+				5A3E3F7BA18580920034BFB1FACAA3F7 /* TRTransitionConfiguration.m */,
+				404DC04CD3096E49D10DD76577D27D92 /* TRTransitionContext.h */,
+				30428C104E1A83A5B7F303BF1741BD7C /* TRTransitionContext.m */,
+				50F3560FAC8595255E823783D1A1BEFD /* TRTransitionRegistry.h */,
+				3F133BC599E445A9BFEB25BF7F52EEC5 /* TRTransitionRegistry.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				AB0E5A95ED27000ED12E4CD18DDD8BE1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				060A9BDA73EF09189B98435B2DCB6BF9 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90C43D6334D37EDD51A65E7CE1863C6B /* TRTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				F2C8BD984F97EC9007401D443A49B995 /* Support Files */,
+				41942F73F37436667DCCFD43D0A0E380 /* TRTransitions */,
+			);
+			name = TRTransitions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9C3907D13983AFC8D97F1B5FCEFB8C37 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B6FACDC5F04E610D5B29E7F12EB0AC9F /* TRTransitionInteractiveControllerProtocol.h */,
+				C449E1708279EC472C0E6E7A10E30E09 /* TRTransitionProtocol.h */,
+				D0840F8C515D7CF848A6BD07CFE3D8B1 /* TRTransitionViewControllerProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9C55769250802F2CE3F2769C2560E004 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1F5654019CE6D937CE1D5F4DCB1F5D29 /* TRTransitionConfiguration+ZoomTransition.h */,
+				9D089F0E54B00A02040F906261E04C37 /* TRTransitionConfiguration+ZoomTransition.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AB0E5A95ED27000ED12E4CD18DDD8BE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C43D6334D37EDD51A65E7CE1863C6B /* TRTransitions */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC082837A3DBF5087AEFDDA7B1379385 /* ZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9C55769250802F2CE3F2769C2560E004 /* Categories */,
+				BFBB031467AAE60DDBFEE61B1675315D /* Utils */,
+				38186AC42969E7ACA47EDDD22B8D448E /* Zoom Into Rect */,
+			);
+			path = ZoomTransition;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B8EC3C5C61F03F33B10501A5D05FB144 /* TRTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				703EE5FC5857FC5B5C381DDFB943492F /* TRTransitions.h */,
+				9C3907D13983AFC8D97F1B5FCEFB8C37 /* Protocols */,
+				EAF5CDEB9F224EC7D38E451CDB8EF4F6 /* Transitions */,
+				6EE7CAF0065CD9061AB7D902F2AA5040 /* Utils */,
+			);
+			path = TRTransitions;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BFBB031467AAE60DDBFEE61B1675315D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A022CFFA34F28DFD11D7FC8E1FB630FE /* TRZoomTransitionHelper.h */,
+				7E4E5EA1E0670138AE1E1BB10D9DF9FF /* TRZoomTransitionHelper.m */,
+				2A2F032F9D1AD636A72C062C77234DCA /* TRZoomTransitionImageHelper.h */,
+				B46094A2F24468CADAF592B4ED093AB8 /* TRZoomTransitionImageHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EAF5CDEB9F224EC7D38E451CDB8EF4F6 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				C188F5B5760FBFE515512AADC42E84C4 /* TRSegueTransition.h */,
+				B73C02D9E48325C24BDEADD5C7852EA5 /* TRSegueTransition.m */,
+				B121A1EAB42E4F5C6A5DA41BE6D602D7 /* TRTransition.h */,
+				BC51B06E4F55AF76F4630C7AB7061A82 /* TRTransition.m */,
+				199CDA16B6D1CD20CF5906A8BAE5DF11 /* TRTransitionInteractiveViewController.h */,
+				EA8762E972F64499E3CB1BD358EE169E /* TRTransitionInteractiveViewController.m */,
+				AC082837A3DBF5087AEFDDA7B1379385 /* ZoomTransition */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		F2C8BD984F97EC9007401D443A49B995 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E10184E4E5A9046E30E49A07044A4C1 /* TRTransitions.xcconfig */,
+				A547CE8F69D3FCB50FFD16F61B122508 /* TRTransitions-dummy.m */,
+				CCA74F52D2100174C2E132CBB18D58AB /* TRTransitions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "TRZoomTransition-Sample/Pods/Target Support Files/TRTransitions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7CACC75EC5B4199C99017667F2C7665 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53919BA18360ECA87B910E84D18F186E /* TRSegueTransition.h in Headers */,
+				2BEB104F9787952550E26CB70E7873AA /* TRTransition.h in Headers */,
+				16FB48CBE6C8B712C2EAD4F7A573D291 /* TRTransitionConfiguration+ZoomTransition.h in Headers */,
+				8CC1100DF476DC85BE273C262DCE0C51 /* TRTransitionConfiguration.h in Headers */,
+				86D44B1AE7E0157CEDCB52770B2D3BBB /* TRTransitionContext.h in Headers */,
+				FC03A76413C5139D25FBB523D54FC49A /* TRTransitionInteractiveControllerProtocol.h in Headers */,
+				D6BCAE14312BF7131CC7E73FDF2D07B3 /* TRTransitionInteractiveViewController.h in Headers */,
+				4C19DBBFC5920447B45CCDD4605C2A66 /* TRTransitionProtocol.h in Headers */,
+				46231AD5249567BD70C2E21D9DB0BCC5 /* TRTransitionRegistry.h in Headers */,
+				5DE62B691F5052B3F11D5113640C98B9 /* TRTransitions.h in Headers */,
+				ECD6A8A4CB63D1CE3C2187D1AC4D477C /* TRTransitionViewControllerProtocol.h in Headers */,
+				52D69FC19DA72BED05E84ECA1D22C052 /* TRZoomInRectBackwardTransition.h in Headers */,
+				45154DA54EADA380C9A86EF24DC2B656 /* TRZoomInRectForwardTransition.h in Headers */,
+				605D235A712FEB4491ACC9559477338F /* TRZoomInRectTransitionHelper.h in Headers */,
+				2B0BBC504276C5CC39A104938CA14926 /* TRZoomTransitionHelper.h in Headers */,
+				84776A06401C34E67F4E661792FC6F74 /* TRZoomTransitionImageHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02E6ABC71C70A333FC816B6250EFA463 /* TRTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C1185D67E58C392F310255C0149445 /* Build configuration list for PBXNativeTarget "TRTransitions" */;
+			buildPhases = (
+				E3D902731B92EBAD7CFC5365E99FE33A /* Sources */,
+				E72AA9C8CBF0A500314C064AAA8D244D /* Frameworks */,
+				F7CACC75EC5B4199C99017667F2C7665 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRTransitions;
+			productName = TRTransitions;
+			productReference = F9B21177D8DEDAE05438A9D1BA9F3F69 /* libTRTransitions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9AC7EF4F42B291D3D4F2783E6305FE6B /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F34DA5B584F7A440B0AA414CE0B724 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				06BA9C0F8B6CFED6B8DBC447430151E3 /* Sources */,
+				B632C8434BB67C2A095024B791D186C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FE03C57C9CBF90EAD65096A80C8C03 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A6BCD930052E3ABEDFFD7209223B06FF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 060A9BDA73EF09189B98435B2DCB6BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC7EF4F42B291D3D4F2783E6305FE6B /* Pods */,
+				02E6ABC71C70A333FC816B6250EFA463 /* TRTransitions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BA9C0F8B6CFED6B8DBC447430151E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A381F8D3C972D2CB107726126137C8AA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D902731B92EBAD7CFC5365E99FE33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F8D16A7A33A2B94223B8ED7F7B587 /* TRSegueTransition.m in Sources */,
+				08145FD9FCCB11375CFE5991C4CB2409 /* TRTransition.m in Sources */,
+				68ED5286FFFBA54E52899494D4D082AE /* TRTransitionConfiguration+ZoomTransition.m in Sources */,
+				F01B20D7DF289372795B51B634C07E6A /* TRTransitionConfiguration.m in Sources */,
+				8A5E8490CC0B360EB291F702B4C707AD /* TRTransitionContext.m in Sources */,
+				0B6801194007F40E038177C27BCA2570 /* TRTransitionInteractiveViewController.m in Sources */,
+				9D0CA3DE87F66E0F9014207CAC369AF4 /* TRTransitionRegistry.m in Sources */,
+				5B7D155C89FBE58CF4650C00A2F0617C /* TRTransitions-dummy.m in Sources */,
+				ED2F7FCA789E1614F0149C9F8F0A0AB1 /* TRZoomInRectBackwardTransition.m in Sources */,
+				FADD052D2C84E07BC967CB9819E51833 /* TRZoomInRectForwardTransition.m in Sources */,
+				1F4704CE64E2FEDCE4F1EFA67C776FAA /* TRZoomInRectTransitionHelper.m in Sources */,
+				83BC827BBC406A36B7AE983BF7D73DEF /* TRZoomTransitionHelper.m in Sources */,
+				B2A5515E54C277CCBA71E594B262A23A /* TRZoomTransitionImageHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58FE03C57C9CBF90EAD65096A80C8C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRTransitions;
+			target = 02E6ABC71C70A333FC816B6250EFA463 /* TRTransitions */;
+			targetProxy = DA5B808A27207E5547C17000A6F0E929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BFC079C040802C6FE3AC9589F4CAEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		981CD1B5F0FF5C90B7EFAA3014F21C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E10184E4E5A9046E30E49A07044A4C1 /* TRTransitions.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRTransitions/TRTransitions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B474AC19EB16F95FCF9A5D142EB60A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E10184E4E5A9046E30E49A07044A4C1 /* TRTransitions.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRTransitions/TRTransitions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE145AC815F76831FF9EA1FC552950F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C1185D67E58C392F310255C0149445 /* Build configuration list for PBXNativeTarget "TRTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B474AC19EB16F95FCF9A5D142EB60A4A /* Debug */,
+				981CD1B5F0FF5C90B7EFAA3014F21C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F34DA5B584F7A440B0AA414CE0B724 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFC079C040802C6FE3AC9589F4CAEBB /* Debug */,
+				FE145AC815F76831FF9EA1FC552950F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TRTransitions",
+  "version": "1.0",
+  "summary": "Thomson Reuters iOS Custom Transitions Catalogue",
+  "description": "Catalogue for different custom animated transitions for iOS.",
+  "homepage": "http://www.thomsonreuters.com",
+  "license": {
+    "type": "Apache",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Juanjo Ramos": "jjramos.developer@gmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/thomsonreuters/TRTransitions-iOS"
+  },
+  "source_files": "TRTransitions/TRTransitions/**/*.{h,m}",
+  "requires_arc": true
+}

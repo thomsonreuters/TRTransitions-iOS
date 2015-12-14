@@ -1,0 +1,14 @@
+PODS:
+  - TRTransitions (1.0)
+
+DEPENDENCIES:
+  - TRTransitions (from `../`)
+
+EXTERNAL SOURCES:
+  TRTransitions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TRTransitions: 2e84b48cb66dc019d7ee58f0a18e8abe0e2bad19
+
+COCOAPODS: 0.39.0
